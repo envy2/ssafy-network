@@ -1,10 +1,7 @@
 <template>
   <div id="app">
-    
     <Header></Header>
-    <v-content>
-      <router-view />
-    </v-content>
+    <router-view></router-view>
     <Footer></Footer>
   </div>
 </template>
@@ -20,9 +17,7 @@ export default {
     Footer
   },
   data() {
-    return {
-      //
-    };
+    return {};
   }
 };
 </script>
