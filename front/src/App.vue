@@ -1,23 +1,27 @@
 <template>
   <div id="app">
-    <Header></Header>
-    <router-view></router-view>
-    <Footer></Footer>
+    <v-app>
+      <router-view></router-view>
+    </v-app>
   </div>
 </template>
-
 <script>
-import Header from "@/components/common/Header";
-import Footer from "@/components/common/Footer";
-
 export default {
   name: "App",
-  components: {
-    Header,
-    Footer
-  },
+
   data() {
     return {};
+  },
+  mounted(){
+    if (this.$session.get("token")!=null) {
+      this.$store.state.login = true;
+      this.$router.push('index');
+    }else{
+      this.$store.state.login = false;
+    }
   }
 };
 </script>
+
+<style>
+</style>

@@ -1,15 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an social page</h1>
+  <div>
     <Social></Social>
   </div>
 </template>
 
 <script>
-import Social from '@/components/social/Social.vue';
+import Social from "@/components/social/Social.vue";
 
 export default {
-  name:'SocialPage',
-  component: Social
-}
+  name: "SocialPage",
+  components: { Social }
+};
 </script>

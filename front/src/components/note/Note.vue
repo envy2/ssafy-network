@@ -1,11 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an Note</h1>
+  <div>
+    <v-content>
+      <router-view></router-view>
+    </v-content>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Note',
-}
+  data() {
+    return {
+    };
+  }
+};
 </script>
