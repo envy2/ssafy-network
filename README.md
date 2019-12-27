@@ -24,4 +24,4 @@ npm start
 서버 실행 후
 http://localhost:3000/docs
 
-![screensh](./swagger-ui/1.png)
+![1](./swagger-ui/1.PNG)
