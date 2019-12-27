@@ -12,13 +12,15 @@ SSAFY 사람들이 코드를 공유하고 질문하기 위한 채팅, 게시판,
 
 #### Run Development Server
 ```
+
+install node.js 
+install express, mongodb, socket.io, swagger-ui
 npm start
 
 ```
 
-### API Specifications
+### API Specifications (Swagger-UI)
 
+서버 실행 후
+http://localhost:3000/docs
 
-  
-
-  
