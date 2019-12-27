@@ -25,3 +25,8 @@ npm start
 http://localhost:3000/docs
 
 ![1](./swagger-ui/1.PNG)
+![2](./swagger-ui/2.PNG)
+![3](./swagger-ui/3.PNG)
+![4](./swagger-ui/4.PNG)
+![5](./swagger-ui/5.PNG)
+![6](./swagger-ui/6.PNG)
